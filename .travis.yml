@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: misterjt@mail.ru
+  api_key:
+    secure: yTe3Z3Y11574ZCzz6q5IGvqstwtVjNcejBfy+SJNBYG1N21tLCZzspMEQmVMaYKJELcYgXodC8jONcamLjGGYdQDmHgggS+Q+Os4wGhKZziugsHO98iFimKyGnfEjs4IvSayg9PpST8yGGy6L82nBl2hkcObSTb5qSM2ptm90djNUpfLYEErD3RGJwAxqYlteg6WjddtV5WvA9TG8aCsdr9Hxd01LhL88w/KgLuGOXU/8Vp6ygXbaou+6O0LFRwrsntEUmeR/jfZQhz51GZQttuucVb9g2fAjaOwbMeTJXh5I5AmHCuoZYFSTUFciEw/wk7zMNO5cMUc4G1wZRvprfthrobO+PYwBZNJYIwPs0OaoxwmT6p1s2ZbrP3uxSTsMgHRCjTxR2OBy0fYe8x2BoCh3po/cFe/346sExF0WwmCiC2d+EUYLy2IfSXbcBx/hL+Dw19BP4J+PR0oZN/oY5ep5dVbUGQBKcubbHunts0nuFs9aJpMEJrDD8v8bXRqAa6diUHDNvTOW4ywaI0n67FX1J9Bu15W6PM4/LCUG++dCg1GyFCZUiSSI9ErNPi4IFBo6TmWwUJ6IRuVpNxueFyhvVuGwy8FZBsBMS+GvdjrR9O1Km0Ds5AwHiQLDxddkHPZ5Js4+ENkkss13kktMJXCeNbd46lmmZJiPxqu9HU=
+  on:
+    tags: true
+    repo: dilame/youla-private-api
