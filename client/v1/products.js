@@ -2,7 +2,7 @@ const routes = require('./routes');
 
 module.exports = {
   productsGet({
-    distance_max = 50000,
+    distance_max,
     latitude, longitude,
     limit = 40,
     page = 0,
